@@ -1,0 +1,199 @@
+{
+    "name": "MRI SEGMENTATION",
+    "tensorImageSize": "3D",
+    "modality": {
+        "0": "MR"
+    },
+    "labels": {
+        "0": "Background",
+        "1": "Target"
+    },
+    "numTraining": 30,
+    "numValidation": 5,
+    "training": [
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI423-IOP-0974-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI423-IOP-0974-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI292-IOP-0877-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI292-IOP-0877-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI231-IOP-0866-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI231-IOP-0866-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI378-IOP-0972-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI378-IOP-0972-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI573-IOP-1155-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI573-IOP-1155-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI347-IOP-0927-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI347-IOP-0927-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI322-IOP-0891-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI322-IOP-0891-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI230-IOP-0869-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI230-IOP-0869-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI596-IOP-1160-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI596-IOP-1160-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI542-IOP-1147-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI542-IOP-1147-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI234-IOP-0870-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI234-IOP-0870-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI597-IOP-1161-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI597-IOP-1161-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI238-IOP-0883-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI238-IOP-0883-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI588-IOP-1158-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI588-IOP-1158-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI388-IOP-0973-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI388-IOP-0973-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI345-IOP-0928-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI345-IOP-0928-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI595-IOP-1159-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI595-IOP-1159-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI306-IOP-0867-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI306-IOP-0867-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI543-IOP-1148-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI543-IOP-1148-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI337-IOP-0929-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI337-IOP-0929-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI305-IOP-0871-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI305-IOP-0871-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI315-IOP-0888-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI315-IOP-0888-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI307-IOP-0872-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI307-IOP-0872-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI372-IOP-0971-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI372-IOP-0971-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI561-IOP-1152-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI561-IOP-1152-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI373-IOP-0967-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI373-IOP-0967-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI574-IOP-1156-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI574-IOP-1156-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI547-IOP-1149-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI547-IOP-1149-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI473-IOP-1137-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI473-IOP-1137-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI474-IOP-1138-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI474-IOP-1138-MRA_GT.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI477-IOP-1141-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI477-IOP-1141-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI548-IOP-1150-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI548-IOP-1150-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI291-IOP-0882-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI291-IOP-0882-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI442-IOP-1041-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI442-IOP-1041-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI395-IOP-0969-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI395-IOP-0969-MRA_GT.nii.gz"
+        }
+    ],
+    "test": [
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI571-IOP-1154-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI571-IOP-1154-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI294-IOP-0868-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI294-IOP-0868-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI553-IOP-1151-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI553-IOP-1151-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI510-IOP-1143-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI510-IOP-1143-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI293-IOP-0876-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI293-IOP-0876-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI563-IOP-1153-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI563-IOP-1153-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI580-IOP-1157-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI580-IOP-1157-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI035-IOP-0873-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI035-IOP-0873-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI290-IOP-0874-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI290-IOP-0874-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI310-IOP-0890-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI310-IOP-0890-MRA_GT.nii.gz"
+        }
+    ]
+}

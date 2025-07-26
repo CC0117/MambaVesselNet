@@ -1,0 +1,75 @@
+{
+    "name": "MRI SEGMENTATION",
+    "tensorImageSize": "3D",
+    "modality": {
+        "0": "MR"
+    },
+    "labels": {
+        "0": "Background",
+        "1": "Target"
+    },
+    "numTraining": 30,
+    "numValidation": 5,
+    "training": [
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI423-IOP-0974-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI423-IOP-0974-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI292-IOP-0877-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI292-IOP-0877-MRA_GT.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI477-IOP-1141-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI477-IOP-1141-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI548-IOP-1150-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI548-IOP-1150-MRA_GT.nii.gz"
+        }
+    ],
+    "test": [
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI571-IOP-1154-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI571-IOP-1154-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI294-IOP-0868-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI294-IOP-0868-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI553-IOP-1151-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI553-IOP-1151-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI510-IOP-1143-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI510-IOP-1143-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI293-IOP-0876-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI293-IOP-0876-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI563-IOP-1153-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI563-IOP-1153-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI580-IOP-1157-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI580-IOP-1157-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI035-IOP-0873-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI035-IOP-0873-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI290-IOP-0874-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI290-IOP-0874-MRA_GT.nii.gz"
+        },
+        {
+            "image": "/home/Yanming_Chen/Json_dataset/imagesTr1/IXI310-IOP-0890-MRA.nii.gz",
+            "label": "/home/Yanming_Chen/Json_dataset/labelsTr1/IXI310-IOP-0890-MRA_GT.nii.gz"
+        }
+    ]
+}
