@@ -1,8 +1,8 @@
 # README
 
-# HybridMamba
+# MambaVesselNet
 
-HybridMamba: a Hybrid CNN-Mamba model for 3D cerebrovascular segmentation. 
+MambaVesselNet: a Hybrid CNN-Mamba model for 3D cerebrovascular segmentation. 
 
 ![process.png](imgs/process.png)
 
