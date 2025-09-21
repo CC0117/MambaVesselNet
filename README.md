@@ -1,20 +1,13 @@
-# README
+# [TOMM 2025] MambaVesselNet++: A Hybrid CNN-Mamba Architecture for Medical Image Segmentation
 
-# MambaVesselNet++
+### [ArXiv](https://arxiv.org/abs/2507.19931) [ACM Transactions](https://dl.acm.org/doi/abs/10.1145/3757324) 
 
-MambaVesselNet++: A Hybrid CNN-Mamba Architecture for Medical Image Segmentation
+![process.png](imgs/archi.png)
 
-![process.png](imgs/process.png)
-
-## Dataset
-
+## 📚Data Preparation
 This study uses the publicly available datasets related to cerebrovascular segmentation. Accessible at [https://xzbai.buaa.edu.cn/datasets.html](https://xzbai.buaa.edu.cn/datasets.html). 
 
-## Contact
-
-If you have any questions about our project, feel free to contact me by email at [scyyc15@nottingham.edu.cn](mailto:scyyc15@nottingham.edu.cn) or [Yanming0117@outlook.com](mailto:Yanming0117@outlook.com) 
-
-## Environment install
+## 🎪Quickstart
 
 ### Install casual-conv1d
 
@@ -38,12 +31,21 @@ python setup.py install
 pip install monai
 ```
 
+## 📜Citation
+If you find this work helpful for your project, please consider citing the following paper:
+```
+@article{xu2025mambavesselnet++,
+  title={MambaVesselNet++: A Hybrid CNN-Mamba Architecture for Medical Image Segmentation},
+  author={Xu, Qing and Chen, Yanming and Li, Yue and Liu, Ziyu and Lou, Zhenye and Zhang, Yixuan and Zheng, Huizhong and He, Xiangjian},
+  journal={ACM Transactions on Multimedia Computing, Communications and Applications},
+  year={2025},
+  publisher={ACM New York, NY}
+}
+```
+If you have any questions about our project, feel free to contact me by email at [qing.xu@nottingham.edu.cn](mailto:qing.xu@nottingham.edu.cn) or [yanming.chen@yale.edu](mailto:yanming.chen@yale.edu) 
+
 ## Acknowledgements
 
-This project is implemented using the 
+* [Mamba](https://github.com/state-spaces/mamba)
 
-[https://github.com/Project-MONAI/MONAI](https://github.com/Project-MONAI/MONAI)
 
-Part of the code is based on
-
-[https://github.com/ge-xing/SegMamba](https://github.com/ge-xing/SegMamba)
