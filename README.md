@@ -1,6 +1,6 @@
 # [TOMM 2025] MambaVesselNet++: A Hybrid CNN-Mamba Architecture for Medical Image Segmentation
 
-[[`ArXiv`](https://arxiv.org/abs/2507.19931)] [[`ACM Transactions`](https://dl.acm.org/doi/abs/10.1145/3757324)] 
+[[`arXiv`](https://arxiv.org/abs/2507.19931)] [[`ACM Transactions`](https://dl.acm.org/doi/abs/10.1145/3757324)] 
 
 ![process.png](imgs/archi.png)
 
